@@ -28,3 +28,7 @@
 .contact-list:not(:last-child) {
 	margin-right: 50px;
 }
+.text-nav-tree:hover,
+.text-nav-tree:focus {
+	color: var(--accent-color);
+}

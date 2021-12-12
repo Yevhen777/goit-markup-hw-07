@@ -773,21 +773,7 @@ body {
 
 /* Страница 2 */
 
-.logo-accent {
-	color: var(--text-color-main);
-}
-
-.logo-accent:hover,
-.logo-accent:focus {
-	color: var(--accent-color);
-}
-
-.text-nav-tree:hover,
-.text-nav-tree:focus {
-	color: var(--accent-color);
-}
-
-/* Кнопки */
+/* Кнопки галереи*/
 
 .list-button {
 	cursor: pointer;
