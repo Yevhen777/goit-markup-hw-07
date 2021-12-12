@@ -13,15 +13,14 @@
 
 .hero-btn {
 	cursor: pointer;
+	& {
+		background-color: #2f303a;
+	}
 }
 
 .hero {
 	padding-top: 200px;
 	padding-bottom: 200px;
-}
-
-.hero {
-	background-color: #2f303a;
 }
 
 .hero-title {
@@ -55,9 +54,8 @@
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-	background-color: var(--accent-btn-color);
+	&:hover,
+	&:focus {
+		background-color: var(--accent-btn-color);
+	}
 }

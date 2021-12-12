@@ -1,18 +1,18 @@
 .section-team {
 	padding-top: 94px;
 	padding-bottom: 94px;
+	background-color: #f5f4fa;
+}
 }
 
-.team-item:not(:last-child) {
-	margin-right: 30px;
-}
+// .team-item:not(:last-child) {
+// 	margin-right: 30px;
+// }
 .team-item {
 	display: flex;
+	&:not(:last-child) {
+	margin-right: 30px;
 }
-
-.title-team {
-	text-align: center;
-	margin-bottom: 50px;
 }
 
 .team-img:not(:last-child) {
@@ -34,10 +34,13 @@
 .icon-list-team {
 	width: 44px;
 	height: 44px;
-}
-.icon-list-team:not(:last-child) {
+	&:not(:last-child) {
 	margin-right: 10px;
 }
+}
+// .icon-list-team:not(:last-child) {
+// 	margin-right: 10px;
+// }
 
 .icon-list {
 	width: 100%;
@@ -51,22 +54,22 @@
 
 	transition: background-color var(--animation-duration) var(--timing-function),
 		color var(--animation-duration) var(--timing-function);
+		&.icon-list:hover,
+		&.icon-list:focus {
+	     background-color: var(--accent-color);
+	     color: var(--background-color);
+}
 }
 
-.icon-list:hover,
-.icon-list:focus {
-	background-color: var(--accent-color);
-	color: var(--background-color);
-}
+// .icon-list:hover,
+// .icon-list:focus {
+// 	background-color: var(--accent-color);
+// 	color: var(--background-color);
+// }
 
 .team-svg {
 	fill: currentColor;
 }
-
-.section-team {
-	background-color: #f5f4fa;
-}
-
 .item-text-box {
 	padding: 30px 32px;
 }
@@ -77,6 +80,8 @@
 	line-height: 1.16;
 	letter-spacing: 0.03em;
 	color: var(--text-color-main);
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 .team-caption {

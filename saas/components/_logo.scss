@@ -30,17 +30,8 @@
 	padding: 24px 0;
 
 	transition: color var(--animation-duration) var(--timing-function);
-}
-
-.logo-accent:hover,
-.logo-accent:focus {
-	color: var(--accent-color);
-}
-.logo-accent {
-	color: var(--text-color-main);
-}
-
-.logo-accent:hover,
-.logo-accent:focus {
-	color: var(--accent-color);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
 }

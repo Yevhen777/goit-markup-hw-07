@@ -9,25 +9,23 @@
 
 	display: flex;
 	align-items: center;
-
 	transition: color var(--animation-duration) var(--timing-function);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
 }
 .icon-tel-one {
 	margin-right: 10px;
-
 	transition: color var(--animation-duration) var(--timing-function);
 }
 
-.text-mail:hover,
-.text-mail:focus {
-	color: var(--accent-color);
-}
-.icon-mail-one:hover,
-.icon-mail-one:focus {
-	color: var(--accent-color);
-}
 .icon-mail-one {
 	fill: currentColor;
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
 }
 .header-list {
 	position: relative;
@@ -60,12 +58,12 @@
 	align-items: center;
 
 	transition: color var(--animation-duration) var(--timing-function);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
 }
 
-.text-tel:hover,
-.text-tel:focus {
-	color: var(--accent-color);
-}
 .icon-tel-one {
 	fill: currentColor;
 }
@@ -76,9 +74,8 @@
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--text-color-secondary);
-}
-
-.contact-text-list:hover,
-.contact-text-list:focus {
-	color: var(--accent-color);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
 }

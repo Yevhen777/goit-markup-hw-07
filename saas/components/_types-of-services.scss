@@ -2,9 +2,6 @@
 	position: relative;
 }
 
-.title-hedding {
-	text-align: center;
-}
 .thumb-product {
 	position: absolute;
 	bottom: 0;
@@ -31,18 +28,20 @@
 .section-heading {
 	padding-bottom: 94px;
 }
-.section-list :not(:last-child) {
-	margin-right: 30px;
-}
+// .section-list :not(:last-child) {
+// 	margin-right: 30px;
+// }
 
 .section-list {
 	display: flex;
-}
-.title-hedding {
-	margin-bottom: 50px;
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
 }
 
 .title-hedding {
+	margin-bottom: 50px;
+	text-align: center;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
