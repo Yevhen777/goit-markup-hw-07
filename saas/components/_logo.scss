@@ -1,0 +1,38 @@
+.nav-list {
+	display: flex;
+	align-items: center;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-box {
+	border: 1px solid #ececec;
+}
+
+.logo-header {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--accent-color);
+
+	margin-right: 93px;
+	padding-top: 24px;
+	padding-bottom: 23px;
+}
+
+.logo-accent {
+	color: var(--text-color-main);
+	padding: 24px 0;
+
+	transition: color var(--animation-duration) var(--timing-function);
+}
+
+.logo-accent:hover,
+.logo-accent:focus {
+	color: var(--accent-color);
+}
