@@ -1,0 +1,51 @@
+.list-button {
+	cursor: pointer;
+	padding: 6px 22px;
+}
+.item-btn {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.btn-all {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.portfolio-btn {
+	margin-right: 8px;
+}
+.portfolio-btn:last-child {
+	margin-right: 0;
+}
+.list-button:hover,
+.list-button:focus {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.list-button {
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	letter-spacing: 0.03em;
+	color: var(--text-color-main);
+
+	transition: background-color var(--animation-duration) var(--timing-function),
+		color var(--animation-duration) var(--timing-function), box-shadow var(--animation-duration) var(--timing-function);
+
+	border: none;
+	border-radius: 4px;
+}
+
+.list-button-current {
+	color: var(--background-color);
+	background-color: var(--accent-color);
+}
+
+.item-btn .list-button:hover,
+.list-button:focus {
+	color: var(--background-color);
+	background-color: var(--accent-color);
+}

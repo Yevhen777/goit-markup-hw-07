@@ -938,6 +938,9 @@ body {
 .portfolio-item {
 	margin-top: 4px;
 }
+
+/* Портфолию футер */
+
 .logo {
 	font-family: Raleway;
 	font-weight: 700;
@@ -990,6 +993,8 @@ body {
 .tel-footer:focus {
 	color: var(--accent-color);
 }
+
+/* Модальное окно */
 
 .backdrop {
 	width: 100%;
