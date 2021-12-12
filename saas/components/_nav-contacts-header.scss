@@ -1,0 +1,84 @@
+.text-mail {
+	padding: 32px 0;
+
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--text-color-secondary);
+
+	display: flex;
+	align-items: center;
+
+	transition: color var(--animation-duration) var(--timing-function);
+}
+.icon-tel-one {
+	margin-right: 10px;
+
+	transition: color var(--animation-duration) var(--timing-function);
+}
+
+.text-mail:hover,
+.text-mail:focus {
+	color: var(--accent-color);
+}
+.icon-mail-one:hover,
+.icon-mail-one:focus {
+	color: var(--accent-color);
+}
+.icon-mail-one {
+	fill: currentColor;
+}
+.header-list {
+	position: relative;
+}
+
+.text-nav-one.current::before {
+	content: "";
+	width: 100%;
+	height: 4px;
+	background: #2196f3;
+	border-radius: 2px;
+	position: absolute;
+	left: 0;
+	bottom: -32px;
+}
+
+.icon-mail-one {
+	margin-right: 10px;
+}
+
+.text-tel {
+	padding: 32px 0;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--text-color-secondary);
+
+	display: flex;
+	align-items: center;
+
+	transition: color var(--animation-duration) var(--timing-function);
+}
+
+.text-tel:hover,
+.text-tel:focus {
+	color: var(--accent-color);
+}
+.icon-tel-one {
+	fill: currentColor;
+}
+
+.contact-text-list {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--text-color-secondary);
+}
+
+.contact-text-list:hover,
+.contact-text-list:focus {
+	color: var(--accent-color);
+}

@@ -60,9 +60,18 @@ body {
 .list {
 	list-style: none;
 }
-/* All site */
 
-/* .nav-list {
+/* All site */
+.text {
+	display: flex;
+	align-items: center;
+}
+
+.header-list:not(:last-child) {
+	margin-right: 50px;
+}
+
+.nav-list {
 	display: flex;
 	align-items: center;
 }
@@ -99,16 +108,9 @@ body {
 .logo-accent:hover,
 .logo-accent:focus {
 	color: var(--accent-color);
-} */
-
+}
 /* Site nav */
-.text {
-	display: flex;
-	align-items: center;
-}
-.header-list:not(:last-child) {
-	margin-right: 50px;
-}
+
 .text-nav-one {
 	font-size: 14px;
 	font-weight: 500;
@@ -322,9 +324,6 @@ body {
 .list-info {
 	display: flex;
 }
-.title-hedding {
-	text-align: center;
-}
 
 .item:not(:last-child) {
 	margin-right: 30px;
@@ -349,8 +348,14 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--text-color-secondary);
 }
+
+/* Виды услуг */
 .img-list {
 	position: relative;
+}
+
+.title-hedding {
+	text-align: center;
 }
 .thumb-product {
 	position: absolute;
@@ -650,6 +655,8 @@ body {
 	color: var(--accent-color);
 }
 
+/* Футер соиальные сети */
+
 .icon-footer {
 	margin-left: 70px;
 }
@@ -697,6 +704,8 @@ body {
 .footer-svg {
 	fill: var(--background-color);
 }
+/* Подписаться на рассылку */
+
 .subscription-title {
 	font-weight: 700;
 	font-size: 14px;
