@@ -43,11 +43,15 @@
 	width: 200px;
 	height: 50px;
 	margin-left: 12px;
+	&:hover,
+	&:focus {
+		background-color: var(--accent-btn-color);
+	}
 }
-.button-subscription:hover,
-.button-subscription:focus {
-	background-color: var(--accent-btn-color);
-}
+// .button-subscription:hover,
+// .button-subscription:focus {
+// 	background-color: var(--accent-btn-color);
+// }
 .footer-svg-icon {
 	margin-left: 10px;
 }

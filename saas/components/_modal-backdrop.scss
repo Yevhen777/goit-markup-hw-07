@@ -15,6 +15,7 @@
 }
 
 .modal {
+	padding: 40px;
 	width: 528px;
 	height: 581px;
 	background-color: var(--background-color);
@@ -40,15 +41,14 @@
 	justify-content: center;
 	background: #ffffff;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.modal-close {
 	box-sizing: border-box;
 	transition: fill var(--animation-duration) var(--timing-function);
+	&:hover,
+	&:focus {
+		fill: var(--accent-color);
+	}
 }
-.modal-close:hover,
-.modal-close:focus {
-	fill: var(--accent-color);
-}
+
 .modal-close {
 	cursor: pointer;
 }
@@ -76,9 +76,6 @@
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.modal {
-	padding: 40px;
-}
 .user-name-box {
 	margin-bottom: 10px;
 }
@@ -104,15 +101,16 @@
 	outline: none;
 	transition: fill var(--animation-duration) var(--timing-function),
 		border-color var(--animation-duration) var(--timing-function);
+	&:focus {
+		border-color: var(--accent-color);
+		border-width: 2px;
+	}
 }
 
 .modal-input:focus + .input-icon {
 	fill: var(--accent-color);
 }
-.modal-input:focus {
-	border-color: var(--accent-color);
-	border-width: 2px;
-}
+
 .textarea-text:focus {
 	border-color: var(--accent-color);
 }
@@ -181,10 +179,9 @@
 	letter-spacing: 0.03em;
 	color: #757575;
 	text-align: center;
-}
-
-.label-check span {
-	color: var(--accent-color);
+	span {
+		color: var(--accent-color);
+	}
 }
 
 .modal-check:checked + .checkbox-check {
@@ -229,8 +226,8 @@
 
 	transition: background-color var(--animation-duration) var(--timing-function);
 	transition: box-shadow var(--animation-duration) var(--timing-function);
-}
-.button-subscription-submit:hover,
-.button-subscription-submit:focus {
-	background-color: var(--accent-btn-color);
+	&:hover,
+	&:focus {
+		background-color: var(--accent-btn-color);
+	}
 }

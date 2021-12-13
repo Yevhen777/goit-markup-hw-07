@@ -18,14 +18,12 @@
 }
 
 .clients-list {
+	margin-top: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.clients-list {
-	margin-top: 50px;
-}
 .clients-icon {
 	display: flex;
 	align-items: center;
@@ -37,12 +35,13 @@
 	color: var(--svg-color);
 
 	transition: border-color, color var(--animation-duration) var(--timing-function);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+		border-color: var(--accent-color);
+	}
 }
-.clients-icon:hover,
-.clients-icon:focus {
-	color: var(--accent-color);
-	border-color: var(--accent-color);
-}
+
 .svg-clients {
 	fill: currentColor;
 }

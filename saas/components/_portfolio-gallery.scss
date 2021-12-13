@@ -35,10 +35,11 @@
 	border: 1px solid #eeeeee;
 	box-sizing: border-box;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.portfolio-work {
 	transition: box-shadow var(--animation-duration) var(--timing-function);
 }
+// .portfolio-work {
+// 	// transition: box-shadow var(--animation-duration) var(--timing-function);
+// }
 
 .container-item-title {
 	margin-left: 0;
@@ -85,11 +86,9 @@
 }
 
 .portfolio-item {
+	margin-top: 4px;
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.03em;
 	color: var(--text-color-secondary);
-}
-.portfolio-item {
-	margin-top: 4px;
 }
