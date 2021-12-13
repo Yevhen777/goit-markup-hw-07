@@ -4,9 +4,6 @@
 	background-color: #f5f4fa;
 }
 
-// .team-item:not(:last-child) {
-// 	margin-right: 30px;
-// }
 .team-item {
 	display: flex;
 	&:not(:last-child) {
@@ -37,9 +34,6 @@
 		margin-right: 10px;
 	}
 }
-// .icon-list-team:not(:last-child) {
-// 	margin-right: 10px;
-// }
 
 .icon-list {
 	width: 100%;
@@ -59,12 +53,6 @@
 		color: var(--background-color);
 	}
 }
-
-// .icon-list:hover,
-// .icon-list:focus {
-// 	background-color: var(--accent-color);
-// 	color: var(--background-color);
-// }
 
 .team-svg {
 	fill: currentColor;

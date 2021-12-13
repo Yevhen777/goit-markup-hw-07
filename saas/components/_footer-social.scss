@@ -35,20 +35,13 @@
 	}
 }
 
-// .footer-icon-bg:hover,
-// .footer-icon-bg:focus {
-// 	background-color: var(--accent-color);
-// }
-
 .footer-icon-item {
 	display: flex;
 	&:not(:last-child) {
 		margin-right: 10px;
 	}
 }
-// .footer-icon-item:not(:last-child) {
-// 	margin-right: 10px;
-// }
+
 .footer-svg {
 	fill: var(--background-color);
 }

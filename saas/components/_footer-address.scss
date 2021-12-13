@@ -42,11 +42,6 @@
 	font-style: normal;
 }
 
-// .logo-accent:hover,
-// .logo-accent:focus {
-// 	color: var(--accent-color);
-// }
-
 .list-address {
 	display: block;
 	margin-bottom: 9px;
@@ -69,15 +64,6 @@
 	}
 }
 
-// .address-footer {
-// 	color: var(--background-color);
-// }
-
-// .address-footer:hover,
-// .address-footer:focus {
-// 	color: var(--accent-color);
-// }
-
 .mail-footer {
 	font-size: 14px;
 	line-height: 1.71;
@@ -90,11 +76,6 @@
 	}
 }
 
-// .mail-footer:hover,
-// .mail-footer:focus {
-// 	color: var(--accent-color);
-// }
-
 .tel-footer {
 	font-size: 14px;
 	line-height: 1.71;
@@ -106,13 +87,3 @@
 		color: var(--accent-color);
 	}
 }
-
-// .tel-footer {
-// 	color: rgba(255, 255, 255, 0.6);
-// 	transition: color var(--animation-duration) var(--timing-function);
-// }
-
-// .tel-footer:hover,
-// .tel-footer:focus {
-// 	color: var(--accent-color);
-// }
