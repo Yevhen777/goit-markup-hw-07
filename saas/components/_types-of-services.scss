@@ -1,5 +1,8 @@
 .img-list {
 	position: relative;
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
 }
 
 .thumb-product {
@@ -28,15 +31,9 @@
 .section-heading {
 	padding-bottom: 94px;
 }
-// .section-list :not(:last-child) {
-// 	margin-right: 30px;
-// }
 
 .section-list {
 	display: flex;
-	&:not(:last-child) {
-		margin-right: 30px;
-	}
 }
 
 .title-hedding {

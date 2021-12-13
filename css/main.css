@@ -369,6 +369,10 @@ body {
   position: relative;
 }
 
+.img-list:not(:last-child) {
+  margin-right: 30px;
+}
+
 .thumb-product {
   position: absolute;
   bottom: 0;
@@ -404,10 +408,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.section-list:not(:last-child) {
-  margin-right: 30px;
 }
 
 .title-hedding {
@@ -596,6 +596,10 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
+}
+
+.logo-back {
+  color: var(--background-color);
 }
 
 .footer-flex {
