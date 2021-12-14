@@ -389,7 +389,7 @@ body {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.product-list {
+.thumb-product__list {
   text-align: center;
   font-weight: 700;
   font-size: 14px;
@@ -409,7 +409,7 @@ body {
   display: flex;
 }
 
-.title-hedding {
+.services__title-hedding {
   margin-bottom: 50px;
   text-align: center;
   font-weight: 700;
@@ -563,7 +563,7 @@ body {
           justify-content: space-between;
 }
 
-.clients-icon {
+.clients-list-text__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -582,12 +582,12 @@ body {
   transition: border-color, color var(--animation-duration) var(--timing-function);
 }
 
-.clients-icon:hover, .clients-icon:focus {
+.clients-list-text__icon:hover, .clients-list-text__icon:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.svg-clients {
+.clients-list-text__svg {
   fill: currentColor;
 }
 
