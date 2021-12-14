@@ -311,7 +311,7 @@ body {
   padding-bottom: 94px;
 }
 
-.adventages-top {
+.adventages {
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -338,7 +338,7 @@ body {
   margin-right: 30px;
 }
 
-.item-text {
+.title-text {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -348,7 +348,15 @@ body {
   color: var(--text-color-main);
 }
 
-.item-info {
+.item-text {
+  margin-bottom: 10px;
+}
+
+.list-info__benefits:not(:last-child) {
+  margin-right: 30px;
+}
+
+.title-text__info {
   width: 270px;
   font-size: 14px;
   line-height: 1.71;
