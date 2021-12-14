@@ -1,0 +1,153 @@
+.nav-header,
+.nav-text {
+	display: flex;
+	align-items: center;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-box {
+	border: 1px solid #ececec;
+}
+
+.nav-header__logo {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--accent-color);
+
+	margin-right: 93px;
+	padding-top: 24px;
+	padding-bottom: 23px;
+}
+
+.nav-header__logo--accent {
+	color: var(--text-color-main);
+	padding: 24px 0;
+
+	transition: color var(--animation-duration) var(--timing-function);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}
+.site-nav {
+	display: flex;
+	align-items: center;
+}
+// .site-nav:not(:last-child) {
+// 	margin-right: 50px;
+// }
+.site-nav-list__link {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--text-color-main);
+
+	padding: 32px 0;
+
+	transition: color var(--animation-duration) var(--timing-function);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+	&--current {
+		color: var(--accent-color);
+	}
+	&--current::before {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 4px;
+		border-radius: 2px;
+		position: absolute;
+		left: 0;
+		bottom: -32px;
+		background: #2196f3;
+	}
+}
+
+.site-nav-list:not(:last-child) {
+	position: relative;
+	margin-right: 50px;
+}
+
+.site-nav-list__mail {
+	padding: 32px 0;
+
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--text-color-secondary);
+
+	display: flex;
+	align-items: center;
+	transition: color var(--animation-duration) var(--timing-function);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}
+
+.icon-tel-one {
+	margin-right: 10px;
+	transition: color var(--animation-duration) var(--timing-function);
+}
+
+.icon-mail-one:hover,
+.icon-mail-one:focus {
+	color: var(--accent-color);
+}
+.icon-mail-one {
+	fill: currentColor;
+}
+
+.icon-mail-one {
+	margin-right: 10px;
+}
+
+.site-nav-list__tel {
+	padding: 32px 0;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--text-color-secondary);
+
+	display: flex;
+	align-items: center;
+
+	transition: color var(--animation-duration) var(--timing-function);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}
+
+.icon-tel-one {
+	fill: currentColor;
+}
+
+.contact-text-list {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--text-color-secondary);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}
+
+// .contact-text-list:hover,
+// .contact-text-list:focus {
+// 	color: var(--accent-color);
+// }
