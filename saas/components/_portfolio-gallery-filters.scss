@@ -1,4 +1,4 @@
-.list-button {
+.portfolio-btn__list-text {
 	cursor: pointer;
 	padding: 6px 22px;
 }
@@ -20,7 +20,7 @@
 	}
 }
 
-.list-button {
+.portfolio-btn__list-text {
 	font-family: Roboto, sans-serif;
 	font-weight: 500;
 	font-size: 16px;
@@ -39,13 +39,13 @@
 	}
 }
 
-.list-button-current {
+.portfolio-btn__list-text--current {
 	color: var(--background-color);
 	background-color: var(--accent-color);
 }
 
-.item-btn .list-button:hover,
-.list-button:focus {
+.item-btn .portfolio-btn__list-text:hover,
+.portfolio-btn__list-text:focus {
 	color: var(--background-color);
 	background-color: var(--accent-color);
 }

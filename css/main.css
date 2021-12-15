@@ -591,7 +591,7 @@ body {
   fill: currentColor;
 }
 
-.list-button {
+.portfolio-btn__list-text {
   cursor: pointer;
   padding: 6px 22px;
 }
@@ -622,7 +622,7 @@ body {
   margin-right: 0;
 }
 
-.list-button {
+.portfolio-btn__list-text {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -637,18 +637,18 @@ body {
   border-radius: 4px;
 }
 
-.list-button:hover, .list-button:focus {
+.portfolio-btn__list-text:hover, .portfolio-btn__list-text:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.list-button-current {
+.portfolio-btn__list-text--current {
   color: var(--background-color);
   background-color: var(--accent-color);
 }
 
-.item-btn .list-button:hover,
-.list-button:focus {
+.item-btn .portfolio-btn__list-text:hover,
+.portfolio-btn__list-text:focus {
   color: var(--background-color);
   background-color: var(--accent-color);
 }
