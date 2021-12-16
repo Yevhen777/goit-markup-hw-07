@@ -8,6 +8,7 @@
   --svg-color: #afb1b8;
   --box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   --font-family: Roboto, sans-serif;
+  --overlay-background: rgba(33, 150, 243, 0.9);
   --animation-duration: 250ms;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -674,16 +675,16 @@ body {
   background: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
   height: 100%;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  -webkit-transform: translateY(101%);
+          transform: translateY(101%);
   -webkit-transition: -webkit-transform var(--animation-duration) var(--timing-function);
   transition: -webkit-transform var(--animation-duration) var(--timing-function);
   transition: transform var(--animation-duration) var(--timing-function);
   transition: transform var(--animation-duration) var(--timing-function), -webkit-transform var(--animation-duration) var(--timing-function);
 }
 
-.portfolio-list:hover .portfolio-list-link__work-text,
-.portfolio-list:focus .portfolio-list-link__work-text {
+.portfolio-list__work:hover .portfolio-list-link__work-text,
+.portfolio-list__work:focus .portfolio-list-link__work-text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
@@ -925,7 +926,7 @@ body {
   border-width: 2px;
 }
 
-.svg-input_modal-input:focus + .svg-input__input-icon {
+.svg-input__modal-input:focus + .svg-input__input-icon {
   fill: var(--accent-color);
 }
 

@@ -19,13 +19,13 @@
 	background: rgba(33, 150, 243, 0.9);
 	padding: 63px 24px;
 	height: 100%;
-	transform: translateY(100%);
+	transform: translateY(101%);
 
 	transition: transform var(--animation-duration) var(--timing-function);
 }
 
-.portfolio-list:hover .portfolio-list-link__work-text,
-.portfolio-list:focus .portfolio-list-link__work-text {
+.portfolio-list__work:hover .portfolio-list-link__work-text,
+.portfolio-list__work:focus .portfolio-list-link__work-text {
 	transform: translateY(0);
 }
 
